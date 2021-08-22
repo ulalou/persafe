@@ -35,7 +35,7 @@ class loginPOST extends Route {
 			Create the jwt with some data
 		*/
 		const jwt = JWT.sign({
-			iss: 'chibisafe',
+			iss: 'persafe',
 			sub: user.id,
 			iat: moment.utc().valueOf()
 		}, Util.config.secret, { expiresIn: '30d' });

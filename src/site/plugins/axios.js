@@ -1,5 +1,5 @@
 export default function({ $axios, store }) {
-	$axios.setHeader('accept', 'application/vnd.chibisafe.json');
+	$axios.setHeader('accept', 'application/vnd.persafe.json');
 
 	$axios.onRequest(config => {
 		if (store.state.auth.token) {

@@ -3,18 +3,18 @@
 		<div class="container">
 			<div class="columns">
 				<div class="column is-narrow">
-					<h4>chibisafe</h4>
-					<span>© 2017-{{ getYear }}
+					<h4>persafe</h4>
+					<span>© 2020-{{ getYear }}
 						<a
-							href="https://github.com/pitu"
-							class="no-block">Pitu</a>
+							href="https://github.com/ulalou"
+							class="no-block">ulalou</a>
 					</span><br>
 					<span>{{ version }}</span>
 				</div>
 				<div class="column is-narrow bottom-up">
-					<a href="https://github.com/weebdev/chibisafe">GitHub</a>
-					<a href="https://patreon.com/pitu">Patreon</a>
-					<a href="https://discord.gg/5g6vgwn">Discord</a>
+					<a href="https://github.com/ulalou/persafe">GitHub</a>
+					<a href="https://discord.gg/jcDFj9E9gn">Discord</a>
+					<a href="https://www.icloud.com/shortcuts/01c8b045ff544916ad3bf867e0cd1ddf">iOS Shortcut</a>
 				</div>
 				<div class="column is-narrow bottom-up">
 					<a
@@ -56,7 +56,7 @@ export default {
 				"FileFormName": "files[]",
 				"Headers": {
 					"token": "${this.apiKey}",
-					"accept": "application/vnd.chibisafe.json"
+					"accept": "application/vnd.persafe.json"
 				},
 				"ResponseType": "Text",
 				"URL": "$json:url$",

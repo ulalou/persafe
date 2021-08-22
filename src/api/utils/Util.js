@@ -58,7 +58,7 @@ class Util {
 			userAccounts: process.env.USER_ACCOUNTS == undefined ? true : false,
 			metaThemeColor: process.env.META_THEME_COLOR || '#20222b',
 			metaDescription: process.env.META_DESCRIPTION || 'Blazing fast file uploader and bunker written in node! 🚀',
-			metaKeywords: process.env.META_KEYWORDS || 'chibisafe,lolisafe,upload,uploader,file,vue,images,ssr,file uploader,free',
+			metaKeywords: process.env.META_KEYWORDS || 'persafe,lolisafe,upload,uploader,file,vue,images,ssr,file uploader,free',
 			metaTwitterHandle: process.env.META_TWITTER_HANDLE || '@your-handle',
 			backgroundImageURL: process.env.BACKGROUND_IMAGE_URL || '',
 			logoURL: process.env.LOGO_URL || '',

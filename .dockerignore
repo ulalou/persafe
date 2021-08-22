@@ -40,7 +40,7 @@ tsconfig.eslint.json
 .gitattributes
 .gitignore
 README.md
-chibi.ps1
-chibi.sh
+persafe.ps1
+persafe.sh
 dist
 .nuxt

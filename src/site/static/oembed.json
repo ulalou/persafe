@@ -1,6 +1,6 @@
 {
-	"title": "chibisafe",
-	"author_name": "Blazing fast file uploader and bunker written in node! 🚀",
-	"provider_name": "chibisafe",
-	"provider_url": "https://chibisafe.moe"
+	"title": "persafe",
+	"author_name": "chibisafe fork customized for personal use. also blazing fast and written in node!",
+	"provider_name": "persafe",
+	"provider_url": "https://safe.ulalou.me"
 }

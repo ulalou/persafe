@@ -1,15 +1,15 @@
 version: "3.7"
 
 services:
-    chibisafe:
+    persafe:
         volumes:
-            - chibisafe-data:/usr/chibisafe/uploads
-            - chibisafe-database:/usr/chibisafe/database
+            - persafe-data:/usr/persafe/uploads
+            - persafe-database:/usr/persafe/database
 
 volumes:
     nginx-data:
         name: "nginx-data"
-    chibisafe-data:
-        name: "chibisafe-data"
-    chibisafe-database:
-        name: "chibisafe-database"
+    persafe-data:
+        name: "persafe-data"
+    persafe-database:
+        name: "persafe-database"

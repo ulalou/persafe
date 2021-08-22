@@ -118,7 +118,7 @@ const schema = Joi.object({
 		.label('Meta description')
 		.description('Short and accurate summary of the content of the page'),
 
-	metaKeywords: Joi.string().default('chibisafe,lolisafe,upload,uploader,file,vue,images,ssr,file uploader,free')
+	metaKeywords: Joi.string().default('persafe,upload,uploader,file,vue,images,ssr,file uploader,free')
 		.meta({
 			section: Sections.SOCIAL_AND_SHARING
 		})

@@ -2,47 +2,40 @@
 	<!-- eslint-disable max-len -->
 	<div class="container has-text-left">
 		<h2 class="subtitle">
-			What is chibisafe?
+			What is persafe?
 		</h2>
 		<article class="message">
 			<div class="message-body">
-				chibisafe is an easy to use, open source and completely free file upload service. We accept your files, photos, documents, anything, and give you back a shareable link for you to send to others.
+				persafe (per(sonal) safe, I know its terrible) is a fork of <a target="_blank" href="https://github.com/WeebDev/chibisafe">chibisafe<a />, running on this website.
+				</a>
 			</div>
 		</article>
 
 		<h2 class="subtitle">
-			Can I run my own chibisafe?
+			Can I selfhost this?
 		</h2>
 		<article class="message">
 			<div class="message-body">
-				Definitely. Head to <a target="_blank" href="https://github.com/WeebDev/chibisafe">our GitHub repo</a> and follow the instructions to clone, build and deploy it by yourself. It's super easy too!
+				Of course, it's open source. You can either host <a target="_blank" href="https://github.com/ulalou/persafe">this fork<a /> or <a target="_blank" href="https://github.com/WeebDev/chibisafe">the original</a>. Also, it's pretty easy.
+				</a>
 			</div>
 		</article>
 
 		<h2 class="subtitle">
-			How can I keep track of my uploads?
+			What's the difference between this and the original?
 		</h2>
 		<article class="message">
 			<div class="message-body">
-				Simply create a user on the site and every upload will be associated with your account, granting you access to your uploaded files through our dashboard.
+				For now, not much except the branding, but my plan is to expand this as a passion project to expand my webdev skills, and maybe add some features.
 			</div>
 		</article>
 
 		<h2 class="subtitle">
-			What are albums?
+			Okay, but can I use THIS instance?
 		</h2>
 		<article class="message">
 			<div class="message-body">
-				Albums are a simple way of sorting uploads together. Right now you can create albums through the dashboard and use them only with <a target="_blank" href="https://chrome.google.com/webstore/detail/lolisafe-uploader/enkkmplljfjppcdaancckgilmgoiofnj">our chrome extension</a> which will enable you to <strong>right click -&gt; send to chibisafe</strong> or to a desired album if you have any.
-			</div>
-		</article>
-
-		<h2 class="subtitle">
-			Why should I use this?
-		</h2>
-		<article class="message">
-			<div class="message-body">
-				There are too many file upload services out there, and a lot of them rely on the foundations of pomf which is ancient. In a desperate and unsuccessful attempt of finding a good file uploader that's easily extendable, chibisafe was born. We give you control over your files, we give you a way to sort your uploads into albums for ease of access and we give you an api to use with ShareX or any other thing that let's you make POST requests.
+				Sure, but for now, without logging in your uploads will get deleted in 14 weeks, however if you want to make an account, they will be kept until my HDD caps out + 14 days. If I can find your info, you will be notified.
 			</div>
 		</article>
 	</div>

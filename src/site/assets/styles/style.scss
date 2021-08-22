@@ -150,7 +150,7 @@ section p.control button {
 }
 
 .switch input[type='checkbox'] + .check:before {
-	background: #fbfbfb;
+	background: #EDA4BD;
 }
 
 /*
@@ -269,9 +269,9 @@ table.table {
 	}
 }
 
-.chibisafe-input input,
-.chibisafe-select select,
-.chibisafe-textarea textarea {
+.persafe-input input,
+.persafe-select select,
+.persafe-textarea textarea {
 	border: 2px solid #21252d;
 	border-radius: 0.3em !important;
 	background: rgba(0, 0, 0, 0.15);
@@ -287,7 +287,7 @@ table.table {
 	}
 }
 
-.chibisafe-input .icon {
+.persafe-input .icon {
 	color: #323846 !important;
 }
 
@@ -368,15 +368,15 @@ table.table {
     align-items: center;
 }
 
-.chibisafe-on-border.field.is-floating-label .label:before {
-	background-color: $chibisafe;
+.persafe-on-border.field.is-floating-label .label:before {
+	background-color: $persafe;
 }
 
-.is-chibisafe.divider::after, .is-chibisafe.divider::before {
+.is-persafe.divider::after, .is-persafe.divider::before {
 	background-color: #21252d;
 }
 
-.chibisafe.taginput {
+.persafe.taginput {
 	.taginput-container {
 		background-color: #21252d;
 		border: 2px solid #21252d;

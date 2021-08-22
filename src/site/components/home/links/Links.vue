@@ -1,12 +1,12 @@
 <template>
 	<div class="links">
 		<a
-			href="https://github.com/WeebDev/chibisafe"
+			href="https://github.com/ulalou/persafe"
 			target="_blank"
 			class="link">
 			<header class="bd-footer-star-header">
 				<h4 class="bd-footer-title">GitHub</h4>
-				<p class="bd-footer-subtitle">Deploy your own chibisafe</p>
+				<p class="bd-footer-subtitle">Deploy your own instance</p>
 			</header>
 		</a>
 		<div
@@ -22,15 +22,6 @@
 				</p>
 			</header>
 		</div>
-		<a
-			href="https://chrome.google.com/webstore/detail/lolisafe-uploader/enkkmplljfjppcdaancckgilmgoiofnj"
-			target="_blank"
-			class="link">
-			<header class="bd-footer-star-header">
-				<h4 class="bd-footer-title">Extension</h4>
-				<p class="bd-footer-subtitle">Upload from any website</p>
-			</header>
-		</a>
 		<router-link
 			to="/faq"
 			class="link">
@@ -66,7 +57,7 @@ export default {
 				"FileFormName": "files[]",
 				"Headers": {
 					"token": "${this.apiKey}",
-					"accept": "application/vnd.chibisafe.json"
+					"accept": "application/vnd.persafe.json"
 				},
 				"ResponseType": "Text",
 				"URL": "$json:url$",

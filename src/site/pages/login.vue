@@ -5,14 +5,14 @@
 				Dashboard Access
 			</h1>
 			<h2 class="subtitle mb5">
-				Login to access your files and folders
+				Login to access your files
 			</h2>
 			<div class="columns">
 				<div class="column is-4 is-offset-4">
 					<b-field>
 						<b-input
 							v-model="username"
-							class="chibisafe-input"
+							class="persafe-input"
 							type="text"
 							placeholder="Username"
 							@keyup.enter.native="login" />
@@ -20,7 +20,7 @@
 					<b-field>
 						<b-input
 							v-model="password"
-							class="chibisafe-input"
+							class="persafe-input"
 							type="password"
 							placeholder="Password"
 							password-reveal
@@ -46,7 +46,7 @@
 							<p class="level-item">
 								<b-button
 									size="is-medium"
-									type="is-chibisafe"
+									type="is-persafe"
 									@click="login">
 									Login
 								</b-button>

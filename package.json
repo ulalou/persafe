@@ -1,12 +1,12 @@
 {
-	"name": "chibisafe",
+	"name": "persafe",
 	"version": "4.0.2",
-	"description": "Blazing fast file uploader and bunker written in node! 🚀",
+	"description": "chibisafe fork customized for personal use. also blazing fast and written in node!",
 	"license": "MIT",
 	"author": {
-		"name": "Pitu",
-		"email": "heyitspitu@gmail.com",
-		"url": "https://github.com/Pitu"
+		"name": "ulalou",
+		"email": "contact@ulalou.me",
+		"url": "https://github.com/ulalou"
 	},
 	"scripts": {
 		"setup": "node src/setup.js && npm run migrate && npm run seed",
@@ -14,7 +14,7 @@
 		"dev": "nodemon src/api/structures/Server",
 		"migrate": "knex migrate:latest",
 		"seed": "knex seed:run",
-		"restart": "pm2 restart chibisafe",
+		"restart": "pm2 restart persafe",
 		"overwrite-config": "cross-env OVERWRITE_SETTINGS=true",
 		"test:vue": "jest --testPathPattern=src/site",
 		"test:api": "jest --testPathPattern=src/tests/api",
@@ -24,10 +24,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/WeebDev/chibisafe"
+		"url": "https://github.com/ulalou/persafe"
 	},
 	"bugs": {
-		"url": "https://github.com/WeebDev/chibisafe/issues"
+		"url": "https://github.com/ulalou/persafe/issues"
 	},
 	"engines": {
 		"node": ">=12.0.0"
@@ -138,7 +138,7 @@
 		"delay": 2500
 	},
 	"keywords": [
-		"chibisafe",
+		"persafe",
 		"lolisafe",
 		"upload",
 		"uploader",
