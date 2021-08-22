@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="792" height="1008" src="https://safe.ulalou.me/y16n0zb94p3q.png">
+  <img width="396" height="504" src="https://safe.ulalou.me/y16n0zb94p3q.png">
 </p>
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/kanadeko/Kuro/master/LICENSE)
