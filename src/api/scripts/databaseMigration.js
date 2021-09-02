@@ -8,7 +8,7 @@ const ThumbUtil = require('../utils/ThumbUtil');
 const oldDb = require('knex')({
 	client: 'sqlite3',
 	connection: {
-		filename: nodePath.join(__dirname, '../../', 'db')
+		filename: nodePath.join(__dirname, '../../../', 'db')
 	},
 	useNullAsDefault: true
 });
@@ -16,7 +16,7 @@ const oldDb = require('knex')({
 const newDb = require('knex')({
 	client: 'sqlite3',
 	connection: {
-		filename: nodePath.join(__dirname, '../../database/', 'database.sqlite')
+		filename: nodePath.join(__dirname, '../../../database/', 'database.sqlite')
 	},
 	postProcessResponse: result => {
 		const booleanFields = ['enabled', 'enableDownload', 'isAdmin', 'nsfw', 'generateZips', 'publicMode', 'userAccounts'];
@@ -42,8 +42,8 @@ const start = async () => {
 	console.log('Starting migration, this may take a few minutes...'); // Because I half assed it
 	console.log('Please do NOT kill the process. Wait for it to finish.');
 
-	await jetpack.removeAsync(nodePath.join(__dirname, '../../uploads/thumbs'));
-	await jetpack.dirAsync(nodePath.join(__dirname, '../../uploads/thumbs/square'));
+	await jetpack.removeAsync(nodePath.join(__dirname, '../../../uploads/thumbs'));
+	await jetpack.dirAsync(nodePath.join(__dirname, '../../../uploads/thumbs/square'));
 	console.log('Finished deleting old thumbnails to create new ones');
 
 	const users = await oldDb.table('users').where('username', '<>', 'root');
@@ -121,7 +121,7 @@ const start = async () => {
 		}
 
 		const filename = file.name;
-		if (!jetpack.exists(nodePath.join(__dirname, '../../uploads', filename))) continue;
+		if (!jetpack.exists(nodePath.join(__dirname, '../../../uploads', filename))) continue;
 		ThumbUtil.generateThumbnails(filename);
 	}
 	await newDb.batchInsert('files', filesToInsert, 20);
